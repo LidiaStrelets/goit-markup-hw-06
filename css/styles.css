@@ -729,6 +729,10 @@ footer .team-icon:focus {
 }
 .agree-background {
   position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
   left: 0;
   top: 4px;
   width: 16px;
@@ -738,9 +742,6 @@ footer .team-icon:focus {
   border-radius: 4px;
 }
 .icon-agree {
-  position: absolute;
-  top: 0;
-  left: 0;
   fill: white;
   stroke: white;
 }
