@@ -645,7 +645,7 @@ footer .team-icon:focus {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   width: 528px;
-  height: 521px;
+  height: 581px;
   background-color: var(--white-color);
 }
 .close {
@@ -674,6 +674,9 @@ footer .team-icon:focus {
   fill: var(--accent-color);
 }
 .close:hover {
+  cursor: pointer;
+}
+.send-button button {
   cursor: pointer;
 }
 .modal > form {
@@ -760,7 +763,7 @@ footer .team-icon:focus {
 .icon-name,
 .icon-tel {
   position: absolute;
-  top: 39px;
+  top: 33px;
   left: 14px;
   fill: var(--headers-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
