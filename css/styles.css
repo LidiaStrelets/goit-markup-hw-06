@@ -708,6 +708,7 @@ footer .team-icon:focus {
 }
 
 .modal > form {
+  box-sizing: content-box;
   width: 448px;
   padding-left: 40px;
   padding-right: 40px;
@@ -780,14 +781,14 @@ footer .team-icon:focus {
 
   margin-bottom: 20px;
 }
-
+.checkbox {
+  margin-bottom: 30px;
+}
 .form-field.checkbox > label {
   display: inline-block;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
-  margin-bottom: 30px;
 }
 .agree-background {
   display: inline-block;

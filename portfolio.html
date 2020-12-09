@@ -25,12 +25,12 @@
             </nav>
             <div class="box">
                 <a class="contakts" href="mailto:info@example.com">
-                    <svg width="16" height="12" class="icon-envelope">
+                    <svg width="16" height="12" class="icon-header">
                         <use href="./images/spriteoptim.svg#envelope"></use>
                     </svg>
                     info@example.com</a>
                 <a class="contakts" href="tel:+380991111111">
-                    <svg width="10" height="16" class="icon-smartphone">
+                    <svg width="10" height="16" class="icon-header">
                         <use href="./images/spriteoptim.svg#smartphone"></use>
                     </svg>
                     +38 099 111 11 11</a>
@@ -42,14 +42,26 @@
         <section class="portfoliosection section-padding">
             <div class="container">
                 <h1 class="portfolio-header visually-hidden">Портфолио</h1>
-                 
-                <nav class="filter-collection">
+<!--                  
+                    <nav class="filter-collection">
                     <button class="filter" type="button">Все</button>
                     <button class="filter" type="button">Веб-сайты</button>
                     <button class="filter" type="button">Приложения</button>
                     <button class="filter" type="button">Дизайн</button>
                     <button class="filter" type="button">Маркетинг</button>
-                </nav>
+                </nav> -->
+                <form class="filter-collection">
+                    <input class="visually-hidden" type="checkbox" name="filter"  value="filter" id="filter-1">
+                    <label class="filter" for="filter-1">Все</label>
+                    <input class="visually-hidden" type="checkbox" name="filter"  value="filter" id="filter-2">
+                    <label class="filter" for="filter-2">Веб-сайты</label>
+                    <input class="visually-hidden" type="checkbox" name="filter"  value="filter" id="filter-3">
+                    <label class="filter" for="filter-3">Приложения</label>
+                    <input class="visually-hidden" type="checkbox" name="filter"  value="filter" id="filter-4">
+                    <label class="filter" class="filter" for="filter-4">Дизайн</label>
+                    <input type="checkbox" class="visually-hidden" name="filter"  value="filter" id="filter-5">
+                    <label class="filter" class="filter" for="filter-5">Маркетинг</label>
+                </form>
                 <ul class="list portfolio">
                     <li>
                         <a href="">
@@ -178,24 +190,35 @@
             <b class="join">присоединяйтесь</b>
             <ul class="list join-list">
                 <li><a class="team-icon" href="">
-                        <svg width="20" height="20" class="icon-instagram">
+                        <svg width="20" height="20" class="icon-socmedia">
                             <use href="./images/spriteoptim.svg#instagram"></use>
                         </svg></a></li>
                 <li><a class="team-icon" href="">
-                        <svg width="20" height="20" class="icon-twitter">
+                        <svg width="20" height="20" class="icon-socmedia">
                             <use href="./images/spriteoptim.svg#twitter"></use>
                         </svg></a></li>
                 <li><a class="team-icon" href="">
-                        <svg width="20" height="20" class="icon-facebook">
+                        <svg width="20" height="20" class="icon-socmedia">
                             <use href="./images/spriteoptim.svg#facebook"></use>
                         </svg>
                     </a></li>
                 <li><a class="team-icon" href="">
-                        <svg width="20" height="20" class="icon-linkedin">
+                        <svg width="20" height="20" class="icon-socmedia">
                             <use href="./images/spriteoptim.svg#linkedin"></use>
                         </svg>
                     </a></li>
             </ul>
+        </div>
+        <div class="signup-container">
+            <form>
+                <b>Подпишитесь на рассылку</b>
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <button>Подписаться
+                    <svg width="24" height="24" class="icon-plane">
+                        <use href="./images/spriteoptim.svg#plane"></use>
+                    </svg>
+                </button>
+            </form>
         </div>
     </div>
 
