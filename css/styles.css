@@ -119,17 +119,13 @@ img {
   align-items: center;
 }
 
-.icon-envelope,
-.icon-smartphone {
+.icon-header {
   margin-right: 10px;
   fill: var(--text-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contakts:hover .icon-envelope,
-.contakts:focus .icon-envelope,
-.contakts:hover .icon-smartphone,
-.contakts:focus .icon-smartphone {
+.contakts:hover .icon-header .contakts:focus .icon-header {
   fill: var(--accent-color);
 }
 
@@ -361,22 +357,13 @@ img {
 .team-icon {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-description .icon-instagram,
-.team-description .icon-twitter,
-.team-description .icon-facebook,
-.team-description .icon-linkedin {
+.team-description .icon-socmedia {
   fill: var(--icon-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-icon:hover .icon-instagram,
-.team-icon:hover .icon-twitter,
-.team-icon:hover .icon-facebook,
-.team-icon:hover .icon-linkedin,
-.team-icon:focus .icon-instagram,
-.team-icon:focus .icon-linkedin,
-.team-icon:focus .icon-twitter,
-.team-icon:focus .icon-facebook {
+.team-icon:hover .icon-socmedia,
+.team-icon:focus .icon-socmedia {
   fill: var(--white-color);
 }
 .team-icon:hover,
@@ -407,27 +394,12 @@ img {
 .clients-list a:focus {
   border: 1px solid var(--accent-color);
 }
-.icon-logo1,
-.icon-logo2,
-.icon-logo3,
-.icon-logo4,
-.icon-logo5,
-.icon-logo6 {
+.icon-client {
   fill: var(--icon-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients-list a:hover .icon-logo1,
-.clients-list a:hover .icon-logo2,
-.clients-list a:hover .icon-logo3,
-.clients-list a:hover .icon-logo4,
-.clients-list a:hover .icon-logo5,
-.clients-list a:hover .icon-logo6,
-.clients-list a:focus .icon-logo1,
-.clients-list a:focus .icon-logo2,
-.clients-list a:focus .icon-logo3,
-.clients-list a:focus .icon-logo4,
-.clients-list a:focus .icon-logo5,
-.clients-list a:focus .icon-logo6 {
+.clients-list a:hover .icon-client,
+.clients-list a:focus .icon-client {
   fill: var(--accent-color);
 }
 
@@ -813,18 +785,14 @@ footer .team-icon:focus {
   fill: white;
   stroke: white;
 }
-.icon-email,
-.icon-name,
-.icon-tel {
+.icon-input {
   position: absolute;
   top: 32px;
   left: 14px;
   fill: var(--headers-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-field:hover .icon-email,
-.form-field:hover .icon-name,
-.form-field:hover .icon-tel {
+.form-field:hover .icon-input {
   fill: var(--accent-color);
 }
 .i-do:checked + .agree-background {
