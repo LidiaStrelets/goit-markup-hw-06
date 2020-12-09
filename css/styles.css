@@ -780,11 +780,9 @@ footer .team-icon:focus {
 
   margin-bottom: 20px;
 }
-.form-field.checkbox {
-  position: relative;
-  align-items: center;
-}
+
 .form-field.checkbox > label {
+  display: inline-block;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -792,6 +790,7 @@ footer .team-icon:focus {
   margin-bottom: 30px;
 }
 .agree-background {
+  display: inline-block;
   position: relative;
   width: 16px;
   height: 15px;
@@ -801,8 +800,8 @@ footer .team-icon:focus {
 }
 .icon-agree {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -2px;
+  left: -2px;
   fill: white;
   stroke: white;
 }
