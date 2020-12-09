@@ -744,7 +744,9 @@ footer .team-icon:focus {
   height: 40px;
 }
 .form-field input:hover,
-.form-field > textarea:hover {
+.form-field > textarea:hover,
+.form-field input:focus,
+.form-field > textarea:focus {
   border-color: var(--accent-color);
   cursor: pointer;
 }
@@ -795,7 +797,8 @@ footer .team-icon:focus {
   fill: var(--headers-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-field:hover .icon-input {
+.form-field:hover .icon-input,
+.form-field:focus .icon-input {
   fill: var(--accent-color);
 }
 .i-do:checked + .agree-background {
