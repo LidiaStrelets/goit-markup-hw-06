@@ -797,6 +797,8 @@ footer .team-icon:focus {
   margin-right: 8px;
   border: 1px solid var(--headers-color);
   border-radius: 4px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-agree {
   position: absolute;
