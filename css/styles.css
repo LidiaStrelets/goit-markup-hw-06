@@ -125,7 +125,8 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contakts:hover .icon-header .contakts:focus .icon-header {
+.contakts:hover .icon-header,
+.contakts:focus .icon-header {
   fill: var(--accent-color);
 }
 
