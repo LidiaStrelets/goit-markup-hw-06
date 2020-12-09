@@ -787,8 +787,10 @@ footer .team-icon:focus {
 }
 .icon-input {
   position: absolute;
-  top: 32px;
-  left: 14px;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+
   fill: var(--headers-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
