@@ -752,7 +752,7 @@ footer .team-icon:focus {
 
 .icon-input {
   position: absolute;
-  bottom: 14px;
+  bottom: 11px;
   left: 12px;
 
   fill: var(--headers-color);
