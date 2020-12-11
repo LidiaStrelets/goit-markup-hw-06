@@ -792,8 +792,6 @@ footer .team-icon:focus {
   color: var(--textarea-placeholder-color);
 }
 .checkbox {
-  flex-direction: row;
-  align-items: center;
   margin-bottom: 30px;
 }
 .form-field.checkbox > label {
