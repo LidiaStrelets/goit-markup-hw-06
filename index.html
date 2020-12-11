@@ -356,18 +356,19 @@
                 </div>
                 <div class="form-field">
                     <label for="comment">Комментарий</label>
-                    <textarea id="comment" name="comment"></textarea>
+                    <textarea id="comment" name="comment" placeholder="Введите текст"></textarea>
                 </div>
                 <div class="form-field checkbox">
-                    <label>
-                    <input class="i-do visually-hidden" type="checkbox" name="agree" value="agree">
+                    
+                    <input id="yes" class="i-do visually-hidden" type="checkbox" name="agree" value="agree">
                     <div class="agree-background">
                         <svg width="16" height="15" class="icon-agree">
                         <use href="./images/spriteoptim.svg#agree"></use>
                         </svg>
                     </div>
-                    Соглашаюсь с рассылкой и принимаю <a href=""> Условия договора</a></label>
+                   <label for="yes"> Соглашаюсь с рассылкой и принимаю <a href=""> Условия договора</a></label>
                 </div>
+
                 <div class="send-button">
                     <button type="submit">Отправить</button>
                 </div>
