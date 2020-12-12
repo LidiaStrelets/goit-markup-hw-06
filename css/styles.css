@@ -770,6 +770,8 @@ footer .team-icon:focus {
   margin-bottom: 10px;
 }
 .form-field > label {
+  margin-bottom: 4px;
+
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -824,7 +826,7 @@ footer .team-icon:focus {
   /* контейнер для галочки и текста */
   margin-bottom: 30px;
 }
-.form-field.checkbox > label {
+.checkbox > label {
   display: inline-block;
 
   font-size: 14px;
@@ -859,7 +861,7 @@ footer .team-icon:focus {
 .i-do:focus + .agree-background {
   border-color: var(--accent-color);
 }
-.form-field a {
+.checkbox a {
   color: var(--accent-color);
   text-decoration: underline;
   font-size: 14px;
